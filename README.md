@@ -29,7 +29,7 @@ Certifique-se de ter os seguintes materiais à mão:
 ### Conexões
 Use o seguinte diagrama para fazer as conexões entre a placa ESP32 e o sensor DHT22:
 
-![Diagrama de Conexões](inserir link da imagem aqui)
+[Diagrama de Conexões](https://github.com/hlfreinoso/monitor-de-temperatura-e-umidade-esp32/blob/main/monitor-de-temperatura-e-umidade-esp32.jpg)
 
 - Conecte o pino "GND" (terra) da placa ESP32 ao pino "GND" do sensor DHT22 (fio preto).
 - Conecte o pino "5V" da placa ESP32 ao pino "VCC" do sensor DHT22 (fio vermelho).
