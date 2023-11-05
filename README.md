@@ -39,7 +39,7 @@ Use o seguinte diagrama para fazer as conexões entre a placa ESP32 e o sensor D
 Este projeto permite que você monitore dados de temperatura e umidade usando um ESP32 e um sensor DHT22. Siga as etapas abaixo para usar o projeto:
 
 ### Carregando o Código para o ESP32
-1. Certifique-se de que você tenha configurado seu ambiente Arduino IDE com as bibliotecas necessárias para o ESP32 e os sensores DHT22. Se ainda não tiver feito isso, siga as instruções relevantes para configurar seu ambiente.
+1. Certifique-se de que você tenha configurado seu ambiente Arduino IDE com as bibliotecas necessárias para o ESP32 e o sensor DHT22. Se ainda não tiver feito isso, siga as instruções abaixo para configurar seu ambiente.
 2. Abra o arquivo "Monitor_Temperatura_Umidade_ESP32.ino" no Arduino IDE.
 3. Selecione a placa "ESP32 Dev Module" no menu "Ferramentas > Placa".
 4. Selecione a porta COM correta do ESP32 no menu "Ferramentas > Porta".
