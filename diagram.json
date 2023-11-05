@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Heitor Reinoso",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -19.2, "left": -225.56, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -9.3,
+      "left": -53.4,
+      "attrs": { "temperature": "35.8", "humidity": "77.5" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:GND.2", "dht1:GND", "black", [ "h28.8", "v124.8", "h86.4" ] ],
+    [ "esp:5V", "dht1:VCC", "red", [ "h-19.05", "v38.4", "h211.2" ] ],
+    [ "dht1:SDA", "esp:26", "green", [ "v124.8", "h-220.7", "v-124.8" ] ]
+  ],
+  "dependencies": {}
+}
