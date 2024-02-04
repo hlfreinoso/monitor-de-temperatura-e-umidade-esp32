@@ -64,5 +64,5 @@ Lembre-se de que a funcionalidade de envio de e-mail pode exigir que você tenha
 
 Após configurar as informações do e-mail, o projeto enviará alertas por e-mail quando a temperatura ultrapassar os limites definidos.
 
-##Contribuições
+## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar solicitações de pull.
